@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Naman Dwivedi
+ * Copyright (C) 2015 Alacritic Inc
  *
  * Licensed under the GNU General Public License v3
  *
@@ -133,12 +133,12 @@ public class SettingsFragment extends PreferenceFragment implements SharedPrefer
             }
         });
 
-        Intent restoreIntent = new Intent(getActivity(), DonateActivity.class);
-        restoreIntent.putExtra("title", "Restoring purchases..");
-        restoreIntent.setAction("restore");
+       // Intent restoreIntent = new Intent(getActivity(), DonateActivity.class);
+       // restoreIntent.putExtra("title", "Restoring purchases..");
+       // restoreIntent.setAction("restore");
 
-        findPreference("support_development").setIntent(new Intent(getActivity(), DonateActivity.class));
-        findPreference("restore_purchases").setIntent(restoreIntent);
+       // findPreference("support_development").setIntent(new Intent(getActivity(), DonateActivity.class));
+        //findPreference("restore_purchases").setIntent(restoreIntent);
     }
 
     @Override

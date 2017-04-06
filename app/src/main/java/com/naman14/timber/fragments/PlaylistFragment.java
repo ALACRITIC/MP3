@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Naman Dwivedi
+ * Copyright (C) 2015 Alacritic Inc
  *
  * Licensed under the GNU General Public License v3
  *

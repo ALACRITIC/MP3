@@ -134,13 +134,13 @@
 
         <Preference
             android:key="support_development"
-            android:summary="Support the development of Timber and unlock all now playing styles"
+            android:summary="Support the development of MP3 and unlock all now playing styles"
             android:title="Support development" />
 
         <Preference
             android:key="restore_purchases"
-            android:summary="Restore previous purchases"
-            android:title="Restore purchases" />
+            android:summary="Visit www.Alacritic.com"
+            android:title="Alacritic Inc" />
 
     </com.naman14.timber.widgets.ThemedPreferenceCategory>
 

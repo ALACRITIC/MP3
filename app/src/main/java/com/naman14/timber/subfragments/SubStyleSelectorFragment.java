@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Naman Dwivedi
+ * Copyright (C) 2015 Alacritic Inc
  *
  * Licensed under the GNU General Public License v3
  *
@@ -146,7 +146,7 @@ public class SubStyleSelectorFragment extends Fragment {
                     @Override
                     public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
                         Intent intent = new Intent(getActivity(), DonateActivity.class);
-                        intent.putExtra("title", "Restoring purchases..");
+                        //intent.putExtra("title", "Restoring purchases..");
                         intent.setAction("restore");
                         startActivity(intent);
                         dialog.dismiss();

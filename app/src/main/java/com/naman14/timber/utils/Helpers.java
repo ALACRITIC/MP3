@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2015 Naman Dwivedi
+ * Copyright (C) 2015 Alacritic Inc
  *
  * Licensed under the GNU General Public License v3
  *
@@ -57,11 +57,12 @@ public class Helpers {
 
     public static class AboutDialog extends DialogFragment {
 
-        String urlgooglelus = "https://plus.google.com/u/0/+NamanDwivedi14";
-        String urlcommunity = "https://plus.google.com/communities/111029425713454201429";
-        String urltwitter = "https://twitter.com/naman1405";
-        String urlgithub = "https://github.com/naman14";
-        String urlsource = "https://github.com/naman14/Timber/issues";
+        String urlgooglelus = "https://plus.google.com/u/0/+AbhishekMalpani18";
+       // String urlcommunity = "https://plus.google.com/communities/111029425713454201429";
+        String urlcommunity = "https://facebook.com/anaymalpani";
+        String urltwitter = "https://twitter.com/anaymalpani";
+        String urlgithub = "https://github.com/anaymalpani";
+        String urlsource = "https://github.com/anaymalpani/mp3/issues";
 
         public AboutDialog() {
         }
@@ -139,7 +140,7 @@ public class Helpers {
                 PackageInfo pInfo = getActivity().getPackageManager().getPackageInfo(getActivity().getPackageName(), 0);
                 String version = pInfo.versionName;
                 int versionCode = pInfo.versionCode;
-                appversion.setText("Timber " + version);
+                appversion.setText("MP3 " + version);
             } catch (PackageManager.NameNotFoundException e) {
                 e.printStackTrace();
             }
