@@ -109,7 +109,7 @@
         <!--use your own api key for fabric-->
         <meta-data
             android:name="io.fabric.ApiKey"
-            android:value="@string/fabric_api_key" />
+            android:value="3f4bd03a6472ad340fddcff97541b65d233288e784b301bdd851a8e5eeaee7a0" />
 
         <receiver android:name=".widgets.desktop.StandardWidget" android:label="@string/widget_standard">
             <intent-filter>
