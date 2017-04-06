@@ -65,7 +65,7 @@ public class DonateActivity extends BaseThemedActivity implements BillingProcess
             status.setText("Restoring purchases..");
         }
 
-        bp = new BillingProcessor(this, getString(R.string.play_billing_license_key), this);
+        //bp = new BillingProcessor(this, getString(R.string.play_billing_license_key), this);
 
     }
 
