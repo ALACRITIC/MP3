@@ -2,26 +2,35 @@ apply plugin: 'com.android.application'
 apply plugin: 'io.fabric'
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'Alacriticmp3'
+            keyPassword '9422587391'
+            storeFile file('C:/Users/anaymalpani.PLATFORMX/StudioProjects/MP3/key/alacriticmp3.jks')
+            storePassword '9422587391'
+        }
+    }
     compileSdkVersion 24
     buildToolsVersion '25.0.0'
     defaultConfig {
         applicationId 'com.alacritic.mp3'
         minSdkVersion 16
         targetSdkVersion 24
-        versionCode 18
-        versionName "0.4b"
+        versionCode 1
         //renderscript support mode is not supported for 21+ with gradle version 2.0
         renderscriptTargetApi 20
         renderscriptSupportModeEnabled true
+        signingConfig signingConfigs.config
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            proguardFile 'C:/Users/anaymalpani.PLATFORMX/StudioProjects/MP3/app/proguard-rules.pro'
         }
         debug {
             ext.enableCrashlytics = false
-            versionNameSuffix "-debug"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
