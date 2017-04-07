@@ -61,10 +61,10 @@ public class DonateActivity extends BaseThemedActivity implements BillingProcess
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         status = (TextView) findViewById(R.id.donation_status);
 
-        /*if (action != null && action.equals("restore")) {
+        if (action != null && action.equals("restore")) {
             status.setText("Restoring purchases..");
         }
-*/
+
         //bp = new BillingProcessor(this, getString(R.string.play_billing_license_key), this);
 
     }

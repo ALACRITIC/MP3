@@ -146,7 +146,7 @@ public class SubStyleSelectorFragment extends Fragment {
                     @Override
                     public void onClick(@NonNull MaterialDialog dialog, @NonNull DialogAction which) {
                         Intent intent = new Intent(getActivity(), DonateActivity.class);
-                        //intent.putExtra("title", "Restoring purchases..");
+                        intent.putExtra("title", "Restoring purchases..");
                         intent.setAction("restore");
                         startActivity(intent);
                         dialog.dismiss();
